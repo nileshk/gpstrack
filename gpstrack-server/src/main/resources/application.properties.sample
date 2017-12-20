@@ -1,0 +1,11 @@
+server.port=1200
+server.ssl.key-store=classpath:keystore.p12
+server.ssl.key-store-password=keystorepassword
+server.ssl.keyStoreType=PKCS12
+server.ssl.keyAlias=mykeyalias
+spring.datasource.url=jdbc:postgresql://localhost/db
+#spring.datasource.username=username
+#spring.datasource.password=password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+#security.user.password=changeme-set-a-password
